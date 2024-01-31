@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+ font-family: 'Poppins', sans-serif;
+ height: 100vh;
+}
+.sidebar{
+    background-color: rgba(239, 239, 239, 0.768);
+    color: rgba(0, 0, 0, 0.734);
+    height: 100vh;
+    border-radius: 0 .5rem .5rem 0;
+    padding-left: 0;
+}
+.title{
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-radius: .5rem;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 3%;
+    border-bottom: 1px solid rgba(195, 195, 195, 0.152);
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(145, 145, 145);
+    color: white;
+}
+.todo-icon {
+  color: rgb(83, 190, 1);
+}
+.rocket-icon{
+    color: rgb(255, 72, 0);
+}
+.now-icon{
+    color: rgb(51, 255, 0);
+}
+.calendar-icon{
+    color:rgb(159, 130, 0);
+}
+.sticky-note-icon{
+    color:rgb(221, 0, 255);
+}
+.paperclip-icon{
+    color: rgb(0, 94, 255);
+}
+.plus-icon{
+    color: green;
+}
+i{
+    margin-right: 5%
+}
+ul{
+    padding-left: 10%;
+}
+
+
+.card{
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.734);
+}
+/* .card:hover{
+    transform: scale(1.05);
+} */
+.card-1{
+    background-color: #f775a9;
+ }
+ /*
+.card-2{
+    background-color: #feaac2;
+}
+.card-3{
+    background-color: 	#8fdbd8;
+}
+.card-4{
+    background-color: #b8dea4;
+}
+.card-5{
+    background-color: #d9d9d9;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20%;
+} */
